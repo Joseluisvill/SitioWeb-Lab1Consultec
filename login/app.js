@@ -22,7 +22,6 @@ function validarEmail() {
         }
     }
 }
-
 function banco(){
     alert('Todavia no tiene una cuenta');
 }

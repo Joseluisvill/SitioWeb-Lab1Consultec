@@ -17,7 +17,7 @@ function validarEmail() {
             elemento.style.display = "block";
             return true;
         } else {
-            window.location.replace("https://joseluisvill.github.io/LabWebAcademaConsultec-IT/cuentas/Cuentas.html");
+            window.location.replace("https://joseluisvill.github.io/SitioWeb-Lab1Consultec/cuentas/Cuentas.html");
             return false;
         }
     }

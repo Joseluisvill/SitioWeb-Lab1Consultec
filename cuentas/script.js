@@ -1,3 +1,3 @@
 function saldosMovimientos() {
-    window.location.replace("https://joseluisvill.github.io/LabWebAcademaConsultec-IT/saldos-movimientos/SaldosMovimientos.html")
+    window.location.replace("https://joseluisvill.github.io/SitioWeb-Lab1Consultec/saldos-movimientos/SaldosMovimientos.html")
 }

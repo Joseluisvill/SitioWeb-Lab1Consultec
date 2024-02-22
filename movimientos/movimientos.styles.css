@@ -1,0 +1,115 @@
+* {
+    margin: 0px 0px ;
+    padding: 0px 0px;
+    box-sizing: content-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.movimientos-wrapp {
+    padding: 20px 20px;
+}
+
+.account_types {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.account_types--type{
+    border-bottom: 1px solid #00ABEB;
+    width: 100%;
+    text-align: center;
+    padding: 22px 0;
+}
+.search_section-mes , .search_section-fecha {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+.search_section {
+    display: flex;
+    column-gap: 32px;
+    align-items: flex-end;
+}
+
+hr {
+    height: 56px;
+}
+
+.search_title {
+    font-size: 16px;
+    color: #00ABEB;
+}
+.search_title > span {
+    color: black;
+}
+.search_delete{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 16px 24px;
+}
+
+input[type=date], input[type=month] {
+    padding: 16px 24px;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.search_input-fecha::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-image: url("./assets/Icon_calendar.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+    padding: auto auto;
+}
+.search_input-mes::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-image: url("./assets/Vector.svg");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 14px;
+    padding: 10px auto;
+    margin-top: 6px;
+    border-width: thin;
+}
+
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+table, tr, td {
+    border: none;
+    border-collapse: collapse;
+}
+table {
+    min-width: 783px;
+    border-spacing: 0px;
+    border-style: none;
+    overflow-x: scroll;
+}
+
+th ,td {
+    text-align: left;
+
+}
+th {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+td {
+    padding: 22px 20px;
+}

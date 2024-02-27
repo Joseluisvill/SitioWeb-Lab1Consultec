@@ -25,7 +25,7 @@ function registrar(){
                             alert("ingresa la contraseña 2")
                         } else 
                                 
-                            if (pass != pass2) {
+                            if (pass1 != pass2) {
                                 alert("Las contraseñas no coinciden")
                             }
 

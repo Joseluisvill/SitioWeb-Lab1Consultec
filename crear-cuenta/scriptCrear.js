@@ -6,24 +6,28 @@ function registrar(){
     let pass1 = document.getElementById("pass1").value;
     let pass2 = document.getElementById("pass2").value;
 
-    if(nombre==""){
+     if(nombre==""){
         alert("Ingresa un nombre")
     }else
-    if(apellido==""){
-        alert("ingresa un apellido")
-    }else
-    if(dni==""){
-        alert("ingresa el dni")
-    }else
-    if (fecha=="") {
-        alert("ingresa una fecha")
-    }else
-    if(pass1==""){
-        alert("ingresa una contraseña")
-    }else
-    if(pass2==""){
-        alert("ingresa la contraseña 2")
-    }
+        if(apellido==""){
+            alert("ingresa un apellido")
+        }else
+            if(dni==""){
+                alert("ingresa el dni")
+            }else
+                if (fecha=="") {
+                    alert("ingresa una fecha")
+                }else
+                    if(pass1==""){
+                        alert("ingresa una contraseña")
+                    }else
+                        if(pass2==""){
+                            alert("ingresa la contraseña 2")
+                        } else 
+                                
+                            if (pass != pass2) {
+                                alert("Las contraseñas no coinciden")
+                            }
 
 
 }
